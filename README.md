@@ -2,213 +2,105 @@
 
 Plataforma colaborativa de geolocalização para mapeamento, divulgação e acompanhamento de problemas estruturais, segurança e eventos no campus da UnB.
 
+## O Problema
+
+A comunidade da UnB enfrenta dificuldade para acessar, divulgar e acompanhar informações geolocalizadas sobre problemas estruturais, ocorrências de segurança e eventos acadêmicos no campus, pois esses dados estão dispersos em múltiplos canais.
+
+## A Solução
+
+Uma plataforma digital interativa (web e mobile) que centraliza essas informações em um único ambiente georreferenciado. O objetivo é melhorar a percepção de segurança, facilitar a descoberta de eventos e estimular a participação ativa da comunidade através de um mapa inteligente e colaborativo.
+
 ---
 
-# O que é necessário
+## Configuração do Ambiente
 
-Antes de começar, instale:
+### Pré-requisitos
 
-- Python3
-- pip
-- git
+- **Python 3.8+** - Para execução do MkDocs
+- **pip** - Gerenciador de pacotes Python
+- **git** - Controle de versão
 
-Depois instale o MkDocs:
+### Instalação
 
 ```bash
+# Crie um ambiente virtual
 python3 -m venv .venv
+
+# Ative o ambiente virtual
+source .venv/bin/activate  # Linux/Mac
+# ou
+.venv\Scripts\activate     # Windows
+
+# Instale as dependências
+pip install mkdocs mkdocs-material
+```
+
+---
+
+## Estrutura do Projeto
+
+```text
+.
+├── docs/                    # Documentação do projeto
+│   ├── index.md            # Página inicial
+│   ├── requisitos/         # Requisitos funcionais e não-funcionais
+│   ├── epicos/             # Épicos do projeto
+│   └── ...
+├── overrides/              # Customizações do tema
+│   └── partials/           # Componentes HTML personalizados
+├── mkdocs.yml              # Configuração do MkDocs
+└── README.md               # Este arquivo
+```
+
+- **docs/**: Todos os arquivos markdown da documentação
+- **mkdocs.yml**: Configuração do site (tema, navegação, plugins)
+- **overrides/**: Customizações visuais do tema Material
+
+---
+
+## Desenvolvimento
+
+### Executar Localmente
+
+```bash
+# Ative o ambiente virtual (se ainda não ativado)
 source .venv/bin/activate
-pip install mkdocs mkdocs-material
-```
 
----
-
-# Estrutura do projeto
-
-```text
-docs/
-├── index.md
-├── doc1.md
-├── doc2.md
-└── ...
-
-mkdocs.yml
-```
-
-- Todos os arquivos `.md` devem ficar dentro da pasta `docs/`
-- O arquivo `mkdocs.yml` controla o site
-
----
-
-# Executando localmente
-
-Para testar localmente:
-
-```bash
+# Inicie o servidor de desenvolvimento
 mkdocs serve
 ```
 
-Depois abra:
+O site estará disponível em `http://127.0.0.1:8000`
 
-```text
-http://127.0.0.1:8000
-```
+**Recursos do servidor de desenvolvimento:**
+- Auto-reload: Alterações nos arquivos são refletidas automaticamente
+- Live preview: Visualize mudanças em tempo real
+- Ctrl+C para interromper
 
-
-## 5. Ative o GitHub Pages
-
-No GitHub:
-
-```text
-Settings -> Pages
-```
-
-Em:
-
-```text
-Build and deployment
-```
-
-Selecione:
-
-```text
-Source: GitHub Actions
-```
-
----
-
-## 6. Acesse o site
-
-O GitHub irá gerar um link parecido com:
-
-```text
-https://usuario.github.io/repositorio/
-```
-
----
-
-# Opção 2 — Adicionando MkDocs em um repositório já existente
-
-Caso você já tenha um projeto e queira adicionar documentação:
-
----
-
-## 1. Instale o MkDocs
+### Build para Produção
 
 ```bash
-pip install mkdocs mkdocs-material
-```
-
----
-
-## 2. Crie a estrutura
-
-Dentro do repositório:
-
-```bash
-mkdir docs
-touch docs/index.md
-touch mkdocs.yml
-```
-
----
-
-## 3. Configure o `mkdocs.yml`
-
-Exemplo:
-
-```yaml
-site_name: documentation
-
-theme:
-  name: material
-```
-
----
-
-## 4. Adicione um workflow do GitHub Actions
-
-Crie:
-
-```text
-.github/workflows/deploy.yml
-```
-
-Conteúdo:
-
-```yaml
-name: Deploy MkDocs
-
-on:
-  push:
-    branches:
-      - main
-
-permissions:
-  contents: write
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - run: pip install mkdocs mkdocs-material
-
-      - run: mkdocs gh-deploy --force
-```
-
----
-
-## 5. Faça commit e push
-
-```bash
-git add .
-git commit -m "add mkdocs"
-git push
-```
-
----
-
-## 6. Ative o GitHub Pages
-
-No GitHub:
-
-```text
-Settings -> Pages
-```
-
-Selecione:
-
-```text
-Source: Deploy from branch
-Branch: gh-pages
-Folder: /root
-```
-
----
-
-
-# Comandos úteis
-
-Executar localmente:
-
-```bash
-mkdocs serve
-```
-
-Gerar site estático:
-
-```bash
+# Gera os arquivos estáticos na pasta site/
 mkdocs build
 ```
 
-Publicar manualmente:
+---
+
+## Comandos Úteis
 
 ```bash
+# Servidor de desenvolvimento (com endereço específico)
+mkdocs serve -a 0.0.0.0:8000
+
+# Build limpo (remove cache anterior)
+mkdocs build --clean
+
+# Verificar configuração
+mkdocs --verbose build
+
+# Deploy no GitHub Pages
 mkdocs gh-deploy
+
+# Listar comandos disponíveis
+mkdocs --help
 ```
