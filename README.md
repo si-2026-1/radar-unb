@@ -98,9 +98,6 @@ mkdocs build --clean
 # Verificar configuração
 mkdocs --verbose build
 
-# Deploy no GitHub Pages
-mkdocs gh-deploy
-
 # Listar comandos disponíveis
 mkdocs --help
 ```
