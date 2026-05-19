@@ -5,7 +5,7 @@ changelog:
     changes: Criação do documento
   - author: Caetano Korilo
     date: 2026-05-19
-    changes: Remover mapa de departamentos e detalhar melhor escopo
+    changes: Remover mapeamento de departamentos e detalhar melhor o escopo
 ---
 
 
