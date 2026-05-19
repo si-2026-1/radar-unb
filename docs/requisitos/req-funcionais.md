@@ -3,6 +3,9 @@ changelog:
   - author: Caetano Korilo
     date: 2026-05-12
     changes: Criação do documento
+  - author: Caetano Korilo
+    date: 2026-05-19
+    changes: Reorganização dos requisitos em grupos alinhados aos pilares do escopo e adição de novos requisitos funcionais (RF13-RF28)
 ---
 
 # Requisitos Funcionais
