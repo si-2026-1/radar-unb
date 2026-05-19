@@ -36,6 +36,12 @@ changelog:
   - author: Pablo Trajano
     date: 2026-05-19
     changes: Adição da lista de históricos
+  - author: Caetano Korilo
+    date: 2026-05-19
+    changes: Adição de requisitos RF12-RF20 para Gestão de Segurança e renumeração de todos os requisitos subsequentes
+  - author: Caetano Korilo
+    date: 2026-05-19
+    changes: Refatoração de numeração de requisitos para formato IEEE 830 por categoria (RF-ACE-XX, RF-MAP-XX, RF-SEC-XX, etc.)
 ---
 
 # Histórico de Alterações
