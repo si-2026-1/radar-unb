@@ -2,6 +2,7 @@ site_name: Radar UnB
 
 nav:
   - Início: index.md
+  - Histórico: historico/mudancas.md
   - Escopo: escopo/escopo.md
   - Problema: problema/problema.md
   - Requisitos:

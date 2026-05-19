@@ -17,6 +17,7 @@ Uma plataforma digital interativa (web e mobile) que centraliza essas informaç�
 | Nome | Matrícula |
 | --- | --- |
 | Caetano Korilo | 212006737 |
+| Pablo Trajano | 202017020 |
 
 ---
 
