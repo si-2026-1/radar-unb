@@ -22,7 +22,4 @@ Os requisitos não funcionais especificam os critérios de qualidade, desempenho
 * **RNF07** – O sistema deve suportar múltiplos usuários simultaneamente.
 * **RNF08** – O sistema deve possuir boa usabilidade e acessibilidade (atendendo a diferentes necessidades da comunidade acadêmica).
 
----
 
-**Autor:** Caetano Korilo  
-**Data:** 2026-05-12

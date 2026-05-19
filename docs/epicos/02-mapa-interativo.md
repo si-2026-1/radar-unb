@@ -20,7 +20,3 @@ Este épico trata do "coração" visual da aplicação: a renderização do mapa
 * **US2.2:** Como usuário, quero clicar em um marcador georreferenciado no mapa, para visualizar em um card ou modal os detalhes do evento ou problema (título, descrição, foto).
 * **US2.3:** Como usuário, quero aplicar filtros (por tipo, data e localização) no mapa, para focar apenas em eventos acadêmicos ou apenas em problemas de segurança recentes.
 
----
-
-**Autor:** Caetano Korilo  
-**Data:** 2026-05-12

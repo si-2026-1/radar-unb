@@ -19,7 +19,3 @@ Este épico engloba a entrada do usuário na plataforma, garantindo que as pesso
 * **US1.1:** Como membro da comunidade UnB, quero criar uma conta na plataforma utilizando meu e-mail, para poder registrar e interagir com as ocorrências.
 * **US1.2:** Como usuário cadastrado, quero fazer login com segurança na aplicação, para acessar meu perfil e gerenciar minhas publicações.
 
----
-
-**Autor:** Caetano Korilo  
-**Data:** 2026-05-12

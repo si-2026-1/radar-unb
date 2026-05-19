@@ -31,8 +31,3 @@ Para delimitar a atuação da plataforma, os seguintes itens **não** estão inc
 * Garantia de resolução (automática ou manual) dos problemas estruturais e de segurança reportados pelos usuários.
 * Monitoramento em tempo real do campus utilizando hardware de terceiros (como câmeras ou sensores físicos de IoT).
 * Substituição de qualquer sistema ou canal oficial de segurança e emergência institucional da universidade.
-
----
-
-**Autor:** Caetano Korilo  
-**Data:** 2026-05-12

@@ -14,10 +14,7 @@ A ausência de um repositório centralizado sobre áreas de risco (como locais c
 ## 2. Divulgação de Eventos
 A promoção de atividades acadêmicas, culturais e extracurriculares é altamente fragmentada. Como a divulgação depende de iniciativas descentralizadas de cada departamento ou centro acadêmico, há uma barreira no acesso à informação, o que reduz o engajamento e a participação geral.
 
-## 3. Comunicação Institucional e Espacial
-Os dados referentes à infraestrutura e à localização de espaços no campus encontram-se pulverizados em diversos canais não oficiais (grupos de mensagens, redes sociais, murais físicos). Essa dispersão impede que alunos, servidores e visitantes tenham um acesso rápido, organizado e eficiente à informação de que precisam no momento em que precisam.
-
-## 4. Participação Comunitária
+## 3. Participação Comunitária
 A falta de uma ferramenta padronizada e colaborativa inibe o engajamento da comunidade acadêmica. Hoje, não há um fluxo claro para que os usuários possam reportar problemas estruturais, validar denúncias de terceiros e, principalmente, acompanhar o andamento e a resolução dessas demandas de forma transparente.
 
 ---
@@ -26,7 +23,3 @@ A falta de uma ferramenta padronizada e colaborativa inibe o engajamento da comu
 
 Em resumo, a comunidade da UnB enfrenta dificuldade para acessar, divulgar e acompanhar informações geolocalizadas sobre problemas estruturais, ocorrências de segurança e eventos acadêmicos no campus, pois esses dados estão dispersos em múltiplos canais e não contam com uma plataforma centralizada, colaborativa e visual.
 
----
-
-**Autor:** Caetano Korilo  
-**Data:** 2026-05-12
