@@ -12,6 +12,14 @@ Uma plataforma digital interativa (web e mobile) que centraliza essas informaç�
 
 ---
 
+## Integrantes
+
+| Nome | Matrícula |
+| --- | --- |
+| Caetano Korilo | 212006737 |
+
+---
+
 ## Configuração do Ambiente
 
 ### Pré-requisitos
