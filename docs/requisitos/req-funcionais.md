@@ -57,4 +57,10 @@ Os requisitos funcionais definem as ações, os comportamentos e as funcionalida
 
 * **RF-ENG-01** – O sistema deve permitir que usuários validem ou confirmem ocorrências.
 * **RF-ENG-02** – O sistema deve permitir editar ou excluir registros feitos pelo próprio usuário.
+* **RF-ENG-03** – O sistema deve permitir comentários e discussões nas ocorrências registradas.
+* **RF-ENG-04** – O sistema deve notificar usuários sobre atualizações em ocorrências que interagiram ou validaram.
+* **RF-ENG-05** – O sistema deve exibir contagem de validações/upvotes para cada ocorrência.
+* **RF-ENG-06** – O sistema deve permitir que usuários desfaçam suas validações.
+* **RF-ENG-07** – O sistema deve permitir denúncia de conteúdo inadequado ou falso.
+* **RF-ENG-08** – O sistema deve permitir que usuários editem apenas campos específicos de seus registros (preservando histórico).
 
