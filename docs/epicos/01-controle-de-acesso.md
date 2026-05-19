@@ -1,10 +1,3 @@
----
-changelog:
-  - author: Caetano Korilo
-    date: 2026-05-12
-    changes: Criação do documento
----
-
 # Épico 1: Controle de Acesso e Identidade
 
 **Descrição:**  
