@@ -19,3 +19,4 @@ Este arquivo centraliza o registro das principais decisões, contribuições e m
 | Caetano Korilo | 19/05/2026 | Adicionou requisitos RF12-RF20 para Gestão de Segurança e renumerou todos os requisitos subsequentes. |
 | Caetano Korilo | 19/05/2026 | Refatorou numeração de requisitos para formato IEEE 830 por categoria (RF-ACE-XX, RF-MAP-XX, RF-SEC-XX, etc.). |
 | Caetano Korilo | 19/05/2026 | Adicionou requisitos RF-ENG-03 a RF-ENG-08 para Engajamento e Gestão de Registros |
+| Caetano Korilo | 19/05/2026 | Adicionou requisitos RF-FIL-03 a RF-FIL-09 para Filtragem e Busca|

@@ -52,6 +52,13 @@ Os requisitos funcionais definem as ações, os comportamentos e as funcionalida
 
 * **RF-FIL-01** – O sistema deve permitir filtrar ocorrências por tipo (problema ou evento).
 * **RF-FIL-02** – O sistema deve permitir filtrar ocorrências por localização e data.
+* **RF-FIL-03** – O sistema deve permitir busca por palavras-chave/tags associadas às ocorrências.
+* **RF-FIL-04** – O sistema deve oferecer sugestões de busca automática enquanto o usuário digita.
+* **RF-FIL-05** – O sistema deve permitir filtrar ocorrências por status (pendente, em andamento, resolvido).
+* **RF-FIL-06** – O sistema deve permitir filtrar ocorrências por nível de prioridade/urgência.
+* **RF-FIL-07** – O sistema deve permitir filtrar por faixa de datas (período personalizado).
+* **RF-FIL-08** – O sistema deve manter histórico de buscas realizadas pelo usuário.
+* **RF-FIL-09** – O sistema deve permitir limpar todos os filtros com um único clique.
 
 ### Engajamento e Gestão de Registros (Pilar Engajamento Comunitário)
 
