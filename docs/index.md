@@ -33,7 +33,6 @@ A arquitetura e as entregas do projeto estão divididas nos seguintes pilares ce
 
 * **[Épico 1: Controle de Acesso e Identidade](epicos/01-controle-de-acesso.md):** Sistema de cadastro e login seguro, garantindo que os usuários da comunidade sejam identificados para evitar spam e manter a confiabilidade dos registros.
 * **[Épico 2: Motor Geoespacial e Visualização](epicos/02-mapa-interativo.md):** O coração da aplicação. Um mapa interativo e responsivo focado no consumo eficiente de coordenadas e na renderização de dados espaciais (estruturados em formatos como GeoJSON). Inclui a interface de busca, painéis de detalhes e aplicação de filtros dinâmicos.
-* **[Épico 3: Captura e Gestão de Ocorrências](epicos/03-gestao-de-ocorrencias.md):** O fluxo de criação de conteúdo, onde o usuário insere novos pontos de dados no mapa. Permite relatar problemas estruturais, cadastrar eventos, anexar mídia e editar os próprios registros, alimentando a base de inteligência coletiva da plataforma.
 
 ## Requisitos Técnicos e Qualidade
 
