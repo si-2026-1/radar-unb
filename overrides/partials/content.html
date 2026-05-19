@@ -6,7 +6,7 @@
 {% if "\u003ch1" not in page.content %}
   <h1>{{ page.title | d(config.site_name, true)}}</h1>
 {% endif %}
-{% if page.meta and page.meta.author %}
+{% if page.meta and (page.meta.changelog or page.meta.author) %}
 <table>
   <thead>
     <tr>
@@ -16,11 +16,21 @@
     </tr>
   </thead>
   <tbody>
+    {% if page.meta.changelog %}
+      {% for entry in page.meta.changelog %}
+    <tr>
+      <td>{{ entry.author | d("—") }}</td>
+      <td>{{ entry.changes | d("—") }}</td>
+      <td>{{ entry.date | d("—") }}</td>
+    </tr>
+      {% endfor %}
+    {% else %}
     <tr>
       <td>{{ page.meta.author }}</td>
       <td>{{ page.meta.changes | d("—") }}</td>
       <td>{{ page.meta.date | d("—") }}</td>
     </tr>
+    {% endif %}
   </tbody>
 </table>
 {% endif %}

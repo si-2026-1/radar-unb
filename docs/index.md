@@ -1,7 +1,8 @@
 ---
-author: Caetano Korilo
-date: 2026-05-12
-changes: Criação do documento
+changelog:
+  - author: Caetano Korilo
+    date: 2026-05-12
+    changes: Criação do documento
 ---
 
 # Radar UnB: Plataforma de Divulgação Geoespacial
