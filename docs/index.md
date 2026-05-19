@@ -1,10 +1,3 @@
----
-changelog:
-  - author: Caetano Korilo
-    date: 2026-05-12
-    changes: Criação do documento
----
-
 # Radar UnB: Plataforma de Divulgação Geoespacial
 
 Plataforma colaborativa de geolocalização para mapeamento, divulgação e acompanhamento de problemas estruturais, segurança e eventos no campus da UnB.

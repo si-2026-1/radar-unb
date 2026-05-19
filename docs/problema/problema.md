@@ -1,10 +1,3 @@
----
-changelog:
-  - author: Caetano Korilo
-    date: 2026-05-12
-    changes: Criação do documento
----
-
 # Definição do Problema
 
 O projeto **Radar UnB** nasce da necessidade de solucionar falhas críticas na forma como os dados georreferenciados circulam dentro do ambiente universitário. Atualmente, a comunidade acadêmica lida com quatro grandes desafios:
