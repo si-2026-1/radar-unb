@@ -13,7 +13,6 @@ nav:
   - Épicos:
     - Controle de Acesso: epicos/01-controle-de-acesso.md
     - Mapa Interativo: epicos/02-mapa-interativo.md
-    - Gestão de Ocorrências: epicos/03-gestao-de-ocorrencias.md
 
 theme:
   name: material
