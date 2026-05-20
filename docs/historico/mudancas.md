@@ -20,3 +20,4 @@ Este arquivo centraliza o registro das principais decisões, contribuições e m
 | Caetano Korilo | 19/05/2026 | Refatorou numeração de requisitos para formato IEEE 830 por categoria (RF-ACE-XX, RF-MAP-XX, RF-SEC-XX, etc.). |
 | Caetano Korilo | 19/05/2026 | Adicionou requisitos RF-ENG-03 a RF-ENG-08 para Engajamento e Gestão de Registros |
 | Caetano Korilo | 19/05/2026 | Adicionou requisitos RF-FIL-03 a RF-FIL-09 para Filtragem e Busca|
+| Caetano Korilo | 20/05/2026 | Adicionou a página do banco de dados com tabela de usuários|
