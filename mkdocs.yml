@@ -9,7 +9,8 @@ nav:
     - Requisitos Funcionais: requisitos/req-funcionais.md
     - Requisitos Não-Funcionais: requisitos/req-nao-funcionais.md
   - Banco de Dados:
-    - Usuários: database/users.md
+    - Modelagem Conceitual: database/modelagem-conceitual.md
+    - Modelagem Lógica: database/modelagem-logica.md
   - Épicos:
     - Controle de Acesso: epicos/01-controle-de-acesso.md
     - Mapa Interativo: epicos/02-mapa-interativo.md

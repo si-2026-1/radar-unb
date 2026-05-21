@@ -21,3 +21,5 @@ Este arquivo centraliza o registro das principais decisões, contribuições e m
 | Caetano Korilo | 19/05/2026 | Adicionou requisitos RF-ENG-03 a RF-ENG-08 para Engajamento e Gestão de Registros |
 | Caetano Korilo | 19/05/2026 | Adicionou requisitos RF-FIL-03 a RF-FIL-09 para Filtragem e Busca|
 | Caetano Korilo | 20/05/2026 | Adicionou a página do banco de dados com tabela de usuários|
+| Rodrigo Torreão | 21/05/2026 | Adicionou modelagem conceitual do banco de dados com entidades, atributos e relacionamentos |
+| Rodrigo Torreão | 21/05/2026 | Adicionou modelagem lógica do banco de dados com definição de tabelas, tipos, PKs, FKs e diagrama DBML |
