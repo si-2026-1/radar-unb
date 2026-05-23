@@ -51,7 +51,7 @@ Os requisitos funcionais definem as ações, os comportamentos e as funcionalida
 * **RF-EVT-08** – O sistema deve permitir definir horário de início e fim do evento.
 * **RF-EVT-09** – O sistema deve permitir adicionar link externo para mais informações sobre o evento.
 * **RF-EVT-10** -  O sistema deve permitir que qualquer visitante visualize os eventos no mapa (modo leitura público).
-* **RF-EVT-11** - O sistema deve exigir um status do evento (Agendado, cancelado, encerrado).
+* **RF-EVT-11** - O sistema deve exigir um status do evento (agendado, cancelado, encerrado).
 * **RF-EVT-12** - O sistema deve permitir usuários manifestarem interesse em eventos.
 * **RF-EVT-13** - O sistema deve notificar usuários interessados em algum evento sobre alterações (nova data ou local).
 
