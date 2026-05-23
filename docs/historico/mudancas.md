@@ -25,3 +25,5 @@ Este arquivo centraliza o registro das principais decisões, contribuições e m
 | Rodrigo Torreão | 21/05/2026 | Adicionou modelagem lógica do banco de dados com definição de tabelas, tipos, PKs, FKs e diagrama DBML |
 | Gabriela Costa | 23/05/2026 | Adicionou melhoria do Épico 1 de Controle de Acesso e Identidade. Alterações na descrição, na relação com os requisitos funcionais associados e adição de novas histórias de usuário (US1.3, US1.4, US1.5) |
 | Gabriela Costa | 23/05/2026 | Adicionou os requisitos funcionais RF-ACE-07, RF-ACE-08 e RF-ACE-09 |
+| Gabriela Costa | 23/05/2026 | Adicionou o épico 3 (Descrição, requisitos associados e Histórias de usuário) |
+| Gabriela Costa | 23/05/2026 | Adicionou os requisitos funcionais RF-EVT-10, RF-EVT-11, RF-EVT-12, RF-EVT-13 |

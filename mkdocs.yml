@@ -14,6 +14,7 @@ nav:
   - Épicos:
     - Controle de Acesso: epicos/01-controle-de-acesso.md
     - Mapa Interativo: epicos/02-mapa-interativo.md
+    - Gestão de Eventos: epicos/03-gestao-de-eventos.md
 
 theme:
   name: material
