@@ -19,6 +19,7 @@ Uma plataforma digital interativa (web e mobile) que centraliza essas informaç�
 | Caetano Korilo | 212006737 |
 | Pablo Trajano | 202017020 |
 | Rodrigo Torreão| 211066196 |
+| Gabriela Costa | 180120859 | 
 
 
 ---
