@@ -23,3 +23,5 @@ Este arquivo centraliza o registro das principais decisões, contribuições e m
 | Caetano Korilo | 20/05/2026 | Adicionou a página do banco de dados com tabela de usuários|
 | Rodrigo Torreão | 21/05/2026 | Adicionou modelagem conceitual do banco de dados com entidades, atributos e relacionamentos |
 | Rodrigo Torreão | 21/05/2026 | Adicionou modelagem lógica do banco de dados com definição de tabelas, tipos, PKs, FKs e diagrama DBML |
+| Gabriela Costa | 23/05/2026 | Adicionou melhoria do Épico 1 de Controle de Acesso e Identidade. Alterações na descrição, na relação com os requisitos funcionais associados e adição de novas histórias de usuário (US1.3, US1.4, US1.5) |
+| Gabriela Costa | 23/05/2026 | Adicionou os requisitos funcionais RF-ACE-07, RF-ACE-08 e RF-ACE-09 |
