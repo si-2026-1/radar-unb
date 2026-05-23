@@ -15,6 +15,9 @@ Os requisitos funcionais definem as ações, os comportamentos e as funcionalida
 * **RF-ACE-04** – O sistema deve permitir logout seguro encerrando a sessão ativa.
 * **RF-ACE-05** – O sistema deve permitir que usuários editem seu próprio perfil (nome, email).
 * **RF-ACE-06** – O sistema deve exigir confirmação de email durante cadastro.
+* **RF-ACE-07** - O sistema deve encerrar a sessão automaticamente após período de inatividade configurável (ex: padrão - 30 minutos).
+* **RF-ACE-08** - O sistema deve permitir que o usuário solicite a exclusão de sua conta.
+* **RF-ACE-09** - O sistema deve notificar o usuário por e-mail sempre que ocorrer um evento sensível (login de novo dispositivo, alteração de senha, solicitação de exclusão de conta).
 
 ### Mapa Interativo e Visualização
 
