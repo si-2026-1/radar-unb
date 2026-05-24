@@ -20,6 +20,7 @@ Uma plataforma digital interativa (web e mobile) que centraliza essas informaç�
 | Pablo Trajano | 202017020 |
 | Rodrigo Torreão| 211066196 |
 | Gabriela Costa | 180120859 | 
+| Leonardo Barbosa | 211010360 |
 
 
 ---

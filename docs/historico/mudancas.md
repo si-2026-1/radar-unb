@@ -26,3 +26,5 @@ Este arquivo centraliza o registro das principais decisões, contribuições e m
 | Gabriela Costa | 23/05/2026 | Adicionou os requisitos funcionais RF-ACE-07, RF-ACE-08 e RF-ACE-09 |
 | Gabriela Costa | 23/05/2026 | Adicionou o épico 3 (Descrição, requisitos associados e Histórias de usuário) |
 | Gabriela Costa | 23/05/2026 | Adicionou os requisitos funcionais RF-EVT-10, RF-EVT-11, RF-EVT-12, RF-EVT-13 |
+| Leonardo Barbosa | 24/05/2026 | Adicionou os requisitos RF-MAP-03, RF-MAP-04, RF-MAP-05, RF-MAP-06, RF-MAP-07 |
+| Leonardo Barbosa | 24/05/2026 | Adicionou melhorias do Épico 2 de Mapa Interativo e Visualização. Descrição alterada, requisitos associados atualizado e novas histórias de usuáio (US2.4, US2.5, US2.6, US2.7) |

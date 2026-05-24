@@ -23,6 +23,11 @@ Os requisitos funcionais definem as ações, os comportamentos e as funcionalida
 
 * **RF-MAP-01** – O sistema deve exibir um mapa interativo do campus da UnB.
 * **RF-MAP-02** – O sistema deve exibir detalhes ao clicar em um ponto no mapa.
+* **RF-MAP-03** – O sistema deve agrupar (clusterizar) marcadores próximos.
+* **RF-MAP-04** – O sistema deve diferenciar marcadores por categoria visualmente.
+* **RF-MAP-05** – O sistema deve exibir a geolocalização em tempo real do usuário.
+* **RF-MAP-06** – O sistema deve restringir a navegação para impedir que o usuário arraste infinitamente a tela para fora da área de cobertura.
+* **RF-MAP-07** – O sistema deve realizar a atualização dos dados de forma assíncrona, garantindo a continuidade da navegação do usuário.
 
 ### Gestão de Segurança (Pilar Segurança)
 
