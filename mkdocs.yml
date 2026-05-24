@@ -16,6 +16,7 @@ nav:
     - Mapa Interativo: epicos/02-mapa-interativo.md
     - Gestão de Eventos: epicos/03-gestao-de-eventos.md
     - Gestão de Problemas de Segurança: epicos/04-gestao-de-seguranca.md
+    - Filtragem e Busca Avançada: epicos/05-filtragem-busca-avancada.md
 
 theme:
   name: material

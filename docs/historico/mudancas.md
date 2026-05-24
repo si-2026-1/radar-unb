@@ -29,3 +29,4 @@ Este arquivo centraliza o registro das principais decisões, contribuições e m
 | Leonardo Barbosa | 24/05/2026 | Adicionou os requisitos RF-MAP-03, RF-MAP-04, RF-MAP-05, RF-MAP-06, RF-MAP-07 |
 | Leonardo Barbosa | 24/05/2026 | Adicionou melhorias do Épico 2 de Mapa Interativo e Visualização. Descrição alterada, requisitos associados atualizado e novas histórias de usuáio (US2.4, US2.5, US2.6, US2.7) |
 | Gabriela Costa | 24/05/2026 | Adiciou o Épico 4 de Gestão de Problemas de Segurança, contendo descrição e histórias de usuário. |
+| Leonardo Barbosa | 24/05/2026 | Adicionou o Épico 5 de Filtragem e Busca Avançada |

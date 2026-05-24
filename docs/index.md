@@ -35,6 +35,7 @@ A arquitetura e as entregas do projeto estão divididas nos seguintes pilares ce
 * **[Épico 2: Motor Geoespacial e Visualização](epicos/02-mapa-interativo.md):** O coração da aplicação. Um mapa interativo e responsivo focado no consumo eficiente de coordenadas e na renderização de dados espaciais (estruturados em formatos como GeoJSON). Inclui a interface de busca, painéis de detalhes e aplicação de filtros dinâmicos.
 * **[Épico 3: Gestão de Eventos](epicos/03-gestao-de-eventos.md):** Usuários cadastrados acessam e gerenciam eventos no mapa para divulgação centralizada e confiável de atividades no campus.
 * **[Épico 4: Gestão de Problemas de Segurança](epicos/04-gestao-de-seguranca.md):** O sistema permite que usuários reportem problemas de segurança no campus com localização, imagens, tipo e prioridade, de forma identificada ou anônima, além de oferece acompanhamento por status, notificações, validação colaborativa, histórico de alterações e estatísticas para agilizar a solução e gerar confiança na plataforma.
+* **[Épico 5: Filtragem e Busca Avançada](epicos/05-filtragem-busca-avancada.md):** Mecanismos de busca textual e filtros dinâmicos por categoria, data e localização que permitem aos usuários isolar e visualizar rapidamente informações específicas no mapa do campus.
 
 ## Requisitos Técnicos e Qualidade
 

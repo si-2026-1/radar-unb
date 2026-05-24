@@ -3,7 +3,8 @@
 **Descrição:**  
 Este épico trata do "coração" visual da aplicação: a renderização do mapa, o consumo eficiente de coordenadas e a visualização de dados espaciais. O foco é garantir que os usuários ganhem consciência situacional do campus através de uma interface fluida, garantindo alta performance no carregamento de múltiplos marcadores e excelente responsividade em diferentes tamanhos de tela.
 
-**Requisitos Funcionais Associados:**  
+**Requisitos Funcionais Associados:** 
+
 * RF-MAP-01, RF-MAP-02, RF-MAP-03, RF-MAP-04, RF-MAP-05, RF-MAP-06, RF-MAP-07
 
 ---
