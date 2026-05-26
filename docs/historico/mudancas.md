@@ -30,5 +30,7 @@ Este arquivo centraliza o registro das principais decisões, contribuições e m
 | Leonardo Barbosa | 24/05/2026 | Adicionou melhorias do Épico 2 de Mapa Interativo e Visualização. Descrição alterada, requisitos associados atualizado e novas histórias de usuário (US2.4, US2.5, US2.6, US2.7) |
 | Gabriela Costa | 24/05/2026 | Adicionou o Épico 4 de Gestão de Problemas de Segurança, contendo descrição e histórias de usuário. |
 | Leonardo Barbosa | 24/05/2026 | Adicionou o Épico 5 de Filtragem e Busca Avançada |
-| Pablo Trajano | 26/05/2026 | Reestruturou os Requisitos Não Funcionais em 6 categorias temáticas (Desempenho, Disponibilidade, Segurança, Usabilidade, Escalabilidade, Confiabilidade), adicionou códigos padrão (RNF-DES, RNF-DIS, RNF-SEG, RNF-USA, RNF-ESC, RNF-CON) e métricas para as categorias. |
-| Pablo Trajano | 26/05/2026 | Expandiu o Épico 2 (Motor Geoespacial e Visualização): corrigiu o título, adicionou a US2.8 para cobrir o RF-MAP-06 e incluiu critérios de aceitação para todas as 8 User Stories. |
+| Pablo Trajano | 26/05/2026 | Reestruturou os Requisitos Não Funcionais em categorias temáticas, adicionou códigos padrão (RNF-DES, RNF-DIS, RNF-SEG, RNF-USA, RNF-ESC, RNF-CON) e métricas para as categorias. |
+| Pablo Trajano | 26/05/2026 | Expandiu o Épico 2: corrigiu o título, adicionou a US2.8 para cobrir o RF-MAP-06 e incluiu critérios de aceitação para todas as 8 User Stories. |
+| Pablo Trajano | 26/05/2026 | Adicionou critérios de aceitação para todas as User Stories do Épico 1 e 3. |
+| Pablo Trajano | 26/05/2026 | Adicionou critérios de aceitação para todas as User Stories do Épico 4 e 5. |
