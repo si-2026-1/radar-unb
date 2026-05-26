@@ -1,4 +1,4 @@
-# Épico 2: Motor Geoespacial e Visualização
+# Épico 2: Mapa Interativo
 
 **Descrição:**
 Este épico trata do "coração" visual da aplicação: a renderização do mapa, o consumo eficiente de coordenadas e a visualização de dados espaciais. O foco é garantir que os usuários ganhem consciência situacional do campus através de uma interface fluida, garantindo alta performance no carregamento de múltiplos marcadores e excelente responsividade em diferentes tamanhos de tela.

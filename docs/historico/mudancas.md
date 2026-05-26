@@ -34,3 +34,4 @@ Este arquivo centraliza o registro das principais decisões, contribuições e m
 | Pablo Trajano | 26/05/2026 | Expandiu o Épico 2: corrigiu o título, adicionou a US2.8 para cobrir o RF-MAP-06 e incluiu critérios de aceitação para todas as 8 User Stories. |
 | Pablo Trajano | 26/05/2026 | Adicionou critérios de aceitação para todas as User Stories do Épico 1 e 3. |
 | Pablo Trajano | 26/05/2026 | Adicionou critérios de aceitação para todas as User Stories do Épico 4 e 5. |
+| Pablo Trajano | 26/05/2026 | Trocou título do Épico 2 para Mapa Interativo para padronizar com o restante do projeto. |
