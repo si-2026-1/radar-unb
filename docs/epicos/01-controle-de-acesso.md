@@ -10,7 +10,7 @@ Este épico estabelece a base de identidade e segurança da plataforma, garantin
 
 ## Histórias de Usuário (User Stories)
 
-* **US1.1:** Como membro da comunidade UnB, quero criar uma conta na plataforma utilizando meu e-mail, para poder registrar e interagir com as ocorrências.
+* **Cadastro de usuário na plataforma:** Como membro da comunidade UnB, quero criar uma conta na plataforma utilizando meu e-mail, para poder registrar e interagir com as ocorrências.
 
   **Critérios de Aceitação:**
   - O formulário de cadastro exige nome, e-mail, matrícula e senha.
@@ -19,7 +19,7 @@ Este épico estabelece a base de identidade e segurança da plataforma, garantin
   - A conta só é ativada após o usuário confirmar o e-mail recebido.
   - Não é possível cadastrar dois usuários com o mesmo e-mail ou matrícula.
 
-* **US1.2:** Como usuário cadastrado, quero fazer login com segurança na aplicação, para acessar meu perfil e gerenciar minhas publicações.
+* **Login na aplicação:** Como usuário cadastrado, quero fazer login com segurança na aplicação, para acessar meu perfil e gerenciar minhas publicações.
 
   **Critérios de Aceitação:**
   - O login aceita o e-mail e a senha cadastrados.
@@ -27,7 +27,7 @@ Este épico estabelece a base de identidade e segurança da plataforma, garantin
   - Após login bem-sucedido, o usuário é redirecionado para a tela principal com o mapa.
   - Contas com e-mail não confirmado não conseguem fazer login.
 
-* **US1.3:** Como usuário que esqueceu a senha, quero solicitar um link de recuperação enviado para meu e-mail, para definir uma nova senha.
+* **Recuperação de senha:** Como usuário que esqueceu a senha, quero solicitar um link de recuperação enviado para meu e-mail, para definir uma nova senha.
 
   **Critérios de Aceitação:**
   - O usuário pode solicitar a recuperação informando apenas o e-mail cadastrado.
@@ -36,14 +36,14 @@ Este épico estabelece a base de identidade e segurança da plataforma, garantin
   - Ao acessar o link válido, o usuário pode definir uma nova senha.
   - Link expirado ou inválido exibe mensagem de erro orientando o usuário a solicitar novamente.
 
-* **US1.4:** Como usuário que esqueceu/não fez logout, quero que minha sessão seja encerrada automaticamente após 30 minutos de inatividade, para que outras pessoas não acessem minha conta pelos meus dispositivos.
+* **Logout automático por inatividade:** Como usuário que esqueceu/não fez logout, quero que minha sessão seja encerrada automaticamente após 30 minutos de inatividade, para que outras pessoas não acessem minha conta pelos meus dispositivos.
 
   **Critérios de Aceitação:**
   - A sessão é encerrada automaticamente após 30 minutos sem atividade do usuário (RF-ACE-07).
   - Ao retornar após o encerramento, o usuário é redirecionado para a tela de login.
   - O sistema não exibe dados do usuário após o encerramento da sessão.
 
-* **US1.5:** Como usuário que quer deixar a plataforma, quero solicitar a exclusão permanente da minha conta.
+* **Exclusão permanente da conta:** Como usuário que quer deixar a plataforma, quero solicitar a exclusão permanente da minha conta.
 
   **Critérios de Aceitação:**
   - A opção de exclusão de conta está disponível nas configurações do perfil.

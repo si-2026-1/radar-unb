@@ -35,3 +35,4 @@ Este arquivo centraliza o registro das principais decisões, contribuições e m
 | Pablo Trajano | 26/05/2026 | Adicionou critérios de aceitação para todas as User Stories do Épico 1 e 3. |
 | Pablo Trajano | 26/05/2026 | Adicionou critérios de aceitação para todas as User Stories do Épico 4 e 5. |
 | Pablo Trajano | 26/05/2026 | Trocou título do Épico 2 para Mapa Interativo para padronizar com o restante do projeto. |
+| Gabriela Costa | 27/05/2026 | Adicionou títulos para as Histórias de Usuários dos Épicos 1, 3 e 4. |
