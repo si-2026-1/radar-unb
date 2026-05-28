@@ -31,24 +31,9 @@ Os requisitos não funcionais especificam os critérios de qualidade, desempenho
 
 ---
 
-### Usabilidade e Acessibilidade
+### Responsividade
 
-* **RNF-USA-01** – A interface deve ser intuitiva e acessível para todos os perfis de usuário da comunidade acadêmica, sem necessidade de treinamento prévio.
-* **RNF-USA-02** – O sistema deve ser responsivo e funcionar corretamente em dispositivos móveis e desktops, adaptando-se a telas de diferentes tamanhos.
-* **RNF-USA-03** – Mensagens de erro devem ser claras, escritas em linguagem acessível, e orientar o usuário sobre como corrigir o problema.
+* **RNF-RES-01** – O sistema deve ser responsivo e funcionar corretamente em dispositivos móveis e desktops, adaptando-se a telas de diferentes tamanhos.
 
 ---
-
-### Escalabilidade e Capacidade
-
-* **RNF-ESC-01** – O sistema deve suportar no mínimo 500 usuários simultâneos sem degradação perceptível de desempenho. *(Relacionado a: RF-MAP-01)*
-* **RNF-ESC-02** – A estrutura do banco de dados deve suportar crescimento contínuo de registros (ocorrências, eventos, usuários) sem necessidade de reestruturação do esquema.
-
----
-
-### Confiabilidade
-
-* **RNF-CON-01** – Os dados da plataforma devem ser armazenados com mecanismo de backup regular, garantindo recuperação em caso de falha.
-* **RNF-CON-02** – Em caso de falha ou erro inesperado, o sistema deve exibir mensagens amigáveis ao usuário sem expor detalhes técnicos internos (stack traces, mensagens de banco de dados, etc.).
-
 
