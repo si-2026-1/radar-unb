@@ -27,10 +27,12 @@ theme:
     - content.code.copy
     - content.action.edit
 
+hooks: []
+
 markdown_extensions:
   - meta
-  - pymdownx.superfences
   - attr_list
+  - pymdownx.superfences
 
 extra:
   analytics:

@@ -19,6 +19,17 @@ A tabela `usuario` utiliza a **matrícula universitária** como chave primária 
 
 ---
 
+## MER — Modelo Entidade-Relacionamento
+
+O diagrama abaixo é o **MER** do Radar UnB.
+
+![MER do Radar UnB](mer.png)
+
+
+
+---
+
+
 ## Descrição das Tabelas
 
 ### `usuario`

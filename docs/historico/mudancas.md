@@ -38,3 +38,4 @@ Este arquivo centraliza o registro das principais decisões, contribuições e m
 | Gabriela Costa | 27/05/2026 | Adicionou títulos para as Histórias de Usuários dos Épicos 1, 3 e 4. |
 | Caetano Korilo | 27/05/2026 | Adicionou títulos descritivos para as Histórias de Usuário dos Épicos 2 e 5 |
 | Caetano Korilo | 27/05/2026 | Adicionou apresentação do projeto |
+| Pablo Trajano | 28/05/2026 | Adicinou o diagrama MER na seção de modelagem lógica para visualização. |
