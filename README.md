@@ -56,18 +56,23 @@ pip install mkdocs mkdocs-material
 .
 ├── docs/                    # Documentação do projeto
 │   ├── index.md            # Página inicial
-│   ├── requisitos/         # Requisitos funcionais e não-funcionais
+│   ├── database/           # Modelagem de banco de dados
+│   ├── escopo/             # Escopo do projeto
 │   ├── epicos/             # Épicos do projeto
+│   ├── historico/          # Histórico de mudanças
+│   ├── problema/           # Análise do problema
+│   ├── requisitos/         # Requisitos funcionais e não-funcionais
 │   └── ...
-├── overrides/              # Customizações do tema
-│   └── partials/           # Componentes HTML personalizados
 ├── mkdocs.yml              # Configuração do MkDocs
 └── README.md               # Este arquivo
 ```
 
 - **docs/**: Todos os arquivos markdown da documentação
+- **docs/database/**: Modelagem de banco de dados (conceitual e lógica)
+- **docs/escopo/**: Definição do escopo do projeto
+- **docs/epicos/**: Épicos do projeto
+- **docs/historico/**: Histórico de mudanças
 - **mkdocs.yml**: Configuração do site (tema, navegação, plugins)
-- **overrides/**: Customizações visuais do tema Material
 
 ---
 

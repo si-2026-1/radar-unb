@@ -17,6 +17,8 @@ nav:
     - Gestão de Eventos: epicos/03-gestao-de-eventos.md
     - Gestão de Problemas de Segurança: epicos/04-gestao-de-seguranca.md
     - Filtragem e Busca Avançada: epicos/05-filtragem-busca-avancada.md
+  - Apresentação:
+    - Trabalho Sistemas da Informação: arquivos/Trabalho_Sistemas_da_Informação.pdf
 
 theme:
   name: material
