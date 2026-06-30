@@ -1,0 +1,1473 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../problema/problema/">
+      
+      
+        <link rel="next" href="../req-nao-funcionais/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Requisitos Funcionais - Radar UnB</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#requisitos-funcionais" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Radar UnB" class="md-header__button md-logo" aria-label="Radar UnB" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Radar UnB
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Requisitos Funcionais
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../historico/mudancas/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Histórico
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../escopo/escopo/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Escopo
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../problema/problema/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Problema
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+  Requisitos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../database/modelagem-conceitual/" class="md-tabs__link">
+          
+  
+  
+  Banco de Dados
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../epicos/01-controle-de-acesso/" class="md-tabs__link">
+          
+  
+  
+  Épicos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../prototipo/prototipo/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Protótipo
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../arquivos/Trabalho_Sistemas_da_Informa%C3%A7%C3%A3o_2.pdf" class="md-tabs__link">
+          
+  
+  
+  Apresentação
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Radar UnB" class="md-nav__button md-logo" aria-label="Radar UnB" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Radar UnB
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../historico/mudancas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Histórico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../escopo/escopo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Escopo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../problema/problema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Problema
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requisitos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Requisitos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requisitos Funcionais
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requisitos Funcionais
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lista-de-requisitos-funcionais-rf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lista de Requisitos Funcionais (RF)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lista de Requisitos Funcionais (RF)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gestao-de-identificacao-e-acesso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestão de Identificação e Acesso
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mapa-interativo-e-visualizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mapa Interativo e Visualização
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gestao-de-seguranca-pilar-seguranca" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestão de Segurança (Pilar Segurança)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gestao-de-eventos-pilar-eventos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestão de Eventos (Pilar Eventos)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filtragem-e-busca" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Filtragem e Busca
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#engajamento-e-gestao-de-registros-pilar-engajamento-comunitario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Engajamento e Gestão de Registros (Pilar Engajamento Comunitário)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../req-nao-funcionais/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requisitos Não-Funcionais
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Banco de Dados
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Banco de Dados
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../database/modelagem-conceitual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelagem Conceitual
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../database/modelagem-logica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelagem Lógica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Épicos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Épicos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../epicos/01-controle-de-acesso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Controle de Acesso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../epicos/02-mapa-interativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapa Interativo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../epicos/03-gestao-de-eventos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestão de Eventos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../epicos/04-gestao-de-seguranca/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestão de Problemas de Segurança
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../epicos/05-filtragem-busca-avancada/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Filtragem e Busca Avançada
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../prototipo/prototipo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Protótipo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apresentação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Apresentação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../arquivos/Trabalho_Sistemas_da_Informa%C3%A7%C3%A3o_2.pdf" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trabalho Sistemas da Informação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lista-de-requisitos-funcionais-rf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lista de Requisitos Funcionais (RF)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lista de Requisitos Funcionais (RF)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gestao-de-identificacao-e-acesso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestão de Identificação e Acesso
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mapa-interativo-e-visualizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mapa Interativo e Visualização
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gestao-de-seguranca-pilar-seguranca" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestão de Segurança (Pilar Segurança)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gestao-de-eventos-pilar-eventos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestão de Eventos (Pilar Eventos)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filtragem-e-busca" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Filtragem e Busca
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#engajamento-e-gestao-de-registros-pilar-engajamento-comunitario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Engajamento e Gestão de Registros (Pilar Engajamento Comunitário)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="requisitos-funcionais">Requisitos Funcionais</h1>
+<p><strong>Descrição:</strong><br />
+Os requisitos funcionais definem as ações, os comportamentos e as funcionalidades específicas que a plataforma <strong>Radar UnB</strong> deve possuir para que os usuários consigam realizar suas tarefas e alcançar seus objetivos dentro do sistema.</p>
+<hr />
+<h2 id="lista-de-requisitos-funcionais-rf">Lista de Requisitos Funcionais (RF)</h2>
+<h3 id="gestao-de-identificacao-e-acesso">Gestão de Identificação e Acesso</h3>
+<ul>
+<li><strong>RF-ACE-01</strong> – O sistema deve permitir o cadastro de usuários.</li>
+<li><strong>RF-ACE-02</strong> – O sistema deve permitir login e autenticação de usuários.</li>
+<li><strong>RF-ACE-03</strong> – O sistema deve permitir recuperação de senha via email.</li>
+<li><strong>RF-ACE-04</strong> – O sistema deve permitir logout seguro encerrando a sessão ativa.</li>
+<li><strong>RF-ACE-05</strong> – O sistema deve permitir que usuários editem seu próprio perfil (nome, email).</li>
+<li><strong>RF-ACE-06</strong> – O sistema deve exigir confirmação de email durante cadastro.</li>
+<li><strong>RF-ACE-07</strong> - O sistema deve encerrar a sessão automaticamente após período de inatividade configurável (ex: padrão - 30 minutos).</li>
+<li><strong>RF-ACE-08</strong> - O sistema deve permitir que o usuário solicite a exclusão de sua conta.</li>
+<li><strong>RF-ACE-09</strong> - O sistema deve notificar o usuário por e-mail sempre que ocorrer um evento sensível (login de novo dispositivo, alteração de senha, solicitação de exclusão de conta).</li>
+</ul>
+<h3 id="mapa-interativo-e-visualizacao">Mapa Interativo e Visualização</h3>
+<ul>
+<li><strong>RF-MAP-01</strong> – O sistema deve exibir um mapa interativo do campus da UnB.</li>
+<li><strong>RF-MAP-02</strong> – O sistema deve exibir detalhes ao clicar em um ponto no mapa.</li>
+<li><strong>RF-MAP-03</strong> – O sistema deve agrupar (clusterizar) marcadores próximos.</li>
+<li><strong>RF-MAP-04</strong> – O sistema deve diferenciar marcadores por categoria visualmente.</li>
+<li><strong>RF-MAP-05</strong> – O sistema deve exibir a geolocalização em tempo real do usuário.</li>
+<li><strong>RF-MAP-06</strong> – O sistema deve restringir a navegação para impedir que o usuário arraste infinitamente a tela para fora da área de cobertura.</li>
+<li><strong>RF-MAP-07</strong> – O sistema deve realizar a atualização dos dados de forma assíncrona, garantindo a continuidade da navegação do usuário.</li>
+</ul>
+<h3 id="gestao-de-seguranca-pilar-seguranca">Gestão de Segurança (Pilar Segurança)</h3>
+<ul>
+<li><strong>RF-SEC-01</strong> – O sistema deve permitir ao usuário registrar problemas com localização geográfica.</li>
+<li><strong>RF-SEC-02</strong> – O sistema deve permitir anexar imagens e descrições às ocorrências.</li>
+<li><strong>RF-SEC-03</strong> – O sistema deve permitir acompanhar o status de um problema (ex: pendente, resolvido).</li>
+<li><strong>RF-SEC-04</strong> – O sistema deve permitir classificar problemas por tipo (iluminação, segurança física, vandalismo, etc.).</li>
+<li><strong>RF-SEC-05</strong> – O sistema deve permitir definir nível de prioridade/urgência para cada ocorrência.</li>
+<li><strong>RF-SEC-06</strong> – O sistema deve permitir filtrar problemas por status, tipo e localização.</li>
+<li><strong>RF-SEC-07</strong> – O sistema deve notificar usuários sobre atualizações de status em ocorrências que reportaram.</li>
+<li><strong>RF-SEC-08</strong> – O sistema deve permitir comentários ou interações nas ocorrências de segurança.</li>
+<li><strong>RF-SEC-09</strong> – O sistema deve manter histórico de alterações de status e responsáveis.</li>
+<li><strong>RF-SEC-10</strong> – O sistema deve permitir reportar problemas de forma anônima.</li>
+<li><strong>RF-SEC-11</strong> – O sistema deve permitir que usuários validem a veracidade de problemas reportados.</li>
+<li><strong>RF-SEC-12</strong> – O sistema deve exibir estatísticas e relatórios de segurança do campus.</li>
+</ul>
+<h3 id="gestao-de-eventos-pilar-eventos">Gestão de Eventos (Pilar Eventos)</h3>
+<ul>
+<li><strong>RF-EVT-01</strong> – O sistema deve permitir ao usuário cadastrar eventos no mapa.</li>
+<li><strong>RF-EVT-02</strong> – O sistema deve exigir campos obrigatórios para cadastro de eventos (título, data, horário, local).</li>
+<li><strong>RF-EVT-03</strong> – O sistema deve permitir que usuários editem eventos cadastrados por eles mesmos.</li>
+<li><strong>RF-EVT-04</strong> – O sistema deve permitir que usuários excluam eventos cadastrados por eles mesmos.</li>
+<li><strong>RF-EVT-05</strong> – O sistema deve permitir categorizar eventos por tipo (acadêmico, cultural, esportivo, etc.).</li>
+<li><strong>RF-EVT-06</strong> – O sistema deve permitir anexar imagens aos eventos.</li>
+<li><strong>RF-EVT-07</strong> – O sistema deve permitir adicionar descrição detalhada ao evento.</li>
+<li><strong>RF-EVT-08</strong> – O sistema deve permitir definir horário de início e fim do evento.</li>
+<li><strong>RF-EVT-09</strong> – O sistema deve permitir adicionar link externo para mais informações sobre o evento.</li>
+<li><strong>RF-EVT-10</strong> -  O sistema deve permitir que qualquer visitante visualize os eventos no mapa (modo leitura público).</li>
+<li><strong>RF-EVT-11</strong> - O sistema deve exigir um status do evento (agendado, cancelado, encerrado).</li>
+<li><strong>RF-EVT-12</strong> - O sistema deve permitir usuários manifestarem interesse em eventos.</li>
+<li><strong>RF-EVT-13</strong> - O sistema deve notificar usuários interessados em algum evento sobre alterações (nova data ou local).</li>
+</ul>
+<h3 id="filtragem-e-busca">Filtragem e Busca</h3>
+<ul>
+<li><strong>RF-FIL-01</strong> – O sistema deve permitir filtrar ocorrências por tipo (problema ou evento).</li>
+<li><strong>RF-FIL-02</strong> – O sistema deve permitir filtrar ocorrências por localização e data.</li>
+<li><strong>RF-FIL-03</strong> – O sistema deve permitir busca por palavras-chave/tags associadas às ocorrências.</li>
+<li><strong>RF-FIL-04</strong> – O sistema deve oferecer sugestões de busca automática enquanto o usuário digita.</li>
+<li><strong>RF-FIL-05</strong> – O sistema deve permitir filtrar ocorrências por status (pendente, em andamento, resolvido).</li>
+<li><strong>RF-FIL-06</strong> – O sistema deve permitir filtrar ocorrências por nível de prioridade/urgência.</li>
+<li><strong>RF-FIL-07</strong> – O sistema deve permitir filtrar por faixa de datas (período personalizado).</li>
+<li><strong>RF-FIL-08</strong> – O sistema deve manter histórico de buscas realizadas pelo usuário.</li>
+<li><strong>RF-FIL-09</strong> – O sistema deve permitir limpar todos os filtros com um único clique.</li>
+</ul>
+<h3 id="engajamento-e-gestao-de-registros-pilar-engajamento-comunitario">Engajamento e Gestão de Registros (Pilar Engajamento Comunitário)</h3>
+<ul>
+<li><strong>RF-ENG-01</strong> – O sistema deve permitir que usuários validem ou confirmem ocorrências.</li>
+<li><strong>RF-ENG-02</strong> – O sistema deve permitir editar ou excluir registros feitos pelo próprio usuário.</li>
+<li><strong>RF-ENG-03</strong> – O sistema deve permitir comentários e discussões nas ocorrências registradas.</li>
+<li><strong>RF-ENG-04</strong> – O sistema deve notificar usuários sobre atualizações em ocorrências que interagiram ou validaram.</li>
+<li><strong>RF-ENG-05</strong> – O sistema deve exibir contagem de validações/upvotes para cada ocorrência.</li>
+<li><strong>RF-ENG-06</strong> – O sistema deve permitir que usuários desfaçam suas validações.</li>
+<li><strong>RF-ENG-07</strong> – O sistema deve permitir denúncia de conteúdo inadequado ou falso.</li>
+<li><strong>RF-ENG-08</strong> – O sistema deve permitir que usuários editem apenas campos específicos de seus registros (preservando histórico).</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 9v12H1V9zm4 12a2 2 0 0 1-2-2V9c0-.55.22-1.05.59-1.41L14.17 1l1.06 1.06c.27.27.44.64.44 1.05l-.03.32L14.69 8H21a2 2 0 0 1 2 2v2c0 .26-.05.5-.14.73l-3.02 7.05C19.54 20.5 18.83 21 18 21zm0-2h9.03L21 12v-2h-8.79l1.13-5.32L9 9.03z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 15V3h4v12zM15 3a2 2 0 0 1 2 2v10c0 .55-.22 1.05-.59 1.41L9.83 23l-1.06-1.06c-.27-.27-.44-.64-.44-1.06l.03-.31.95-4.57H3a2 2 0 0 1-2-2v-2c0-.26.05-.5.14-.73l3.02-7.05C4.46 3.5 5.17 3 6 3zm0 2H5.97L3 12v2h8.78l-1.13 5.32L15 14.97z"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "content.code.copy", "content.action.edit"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
